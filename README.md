@@ -2,7 +2,10 @@
 
 Three examples of work/projects that you've recently participated in...
 
+
 This code is how I created a tic-tac-toe game in react.
+
+```javascript
 function Square(props) {
   return (
     <button className="square" data-pro={props.value} onClick={props.onClick}>
@@ -164,14 +167,16 @@ function calculateWinner(squares) {
 
 
 serviceWorker.unregister();
+```
 
+2-
+ # H1Bamazon -
 
-2
 In this application I have created an Amazon-like storefront with the MySQL skills that I have learned. The app will take in orders from customers and deplete stock from the store's inventory. I have you programed the app to track product sales across your store's departments and then provide a summary of the highest-grossing departments in the store.
 
 This is a CLI application. The application can be found at https://github.com/Kyle2099/bamazon
 
-The Customer View -
+##### H4 The Customer View -
 
 The products table inside of the database stores the item_id product_name department_name price and the stock_quantity.
 
@@ -187,7 +192,7 @@ How many do you need? 5000 Sorry, Insufficient quantity! Please check back later
 
 Would you like to continue? (Y/n)
 
-In the Manager View-
+##### H4 Manager View-
 
 There is a list of menu options
 
@@ -201,16 +206,20 @@ When a supervisor selects View Product Sales by Department, the app will display
 The total_profit column should be calculated on the fly using the difference between over_head_costs and product_sales. total_profit should not be stored in any database. But instead uses custom alias. Using GROUP BYs and JOINS.
 
 Using npm Console.table to set up the table structure.
+
+
+##### H4 Link- 
+
 https://github.com/Kyle2099/bamazon
 
 3
-The Crystal Game-
+#H1 The Crystal Game-
 A random number is generated at the beginning of the game. You can win the game by figuring out how to reach the random number by clicking on the crystals. Adding up the crystal your score with increase with points.The value of each crystal are hidden. We like to give you a bit of a challange.
 Each time when the game begins the value of each crystal will Change.
 https://kyle2099.github.io/unit-4-game/
 
 
-Provide up to three examples of work that has recently inspired you from a technical perspective. 
+##### H4 Provide up to three examples of work that has recently inspired you from a technical perspective. 
 
 1. https://opensource.google.com/projects/magenta
 I have always been interested in TensorFlow. I have many ideas on how I could use TensorFlow. Using machine learning to learn human behaviors, understanding tone of voice and facial expressions. Allowing the machine to decipher different human emotions. 
@@ -222,8 +231,9 @@ I'm inspired by using technology to build the perfect wave. Understand how the w
 
 TensorFlow Playground allows for in-broswer visualization of neural networks. It contains a tiny neural network library that meets the demands of this educational visualization. I really like that you can visualize in the browser how the machine is learning. 
 
-Focus-
+##### H4 Focus-
 I would focus my time learning about machine learning and how to structure data. I want to learn more about big data and how it can be used to have a deeper understanding of where the future of tech can go. 
 
-Code challenge 
+##### H4 Code challenge -
+
 https://codesandbox.io/s/nrxm1n46ol?fontsize=14
